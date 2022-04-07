@@ -1,0 +1,80 @@
+body {
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(24, 24, 22));
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.h1 {
+  text-align: center;
+
+  /* Rainbow */
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    green,
+    blue,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.h2 {
+  font-family: "Ubuntu Mono", monospace;
+  text-align: center;
+  color: white;
+}
+
+.image1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  width: 500px;
+}
+
+.h3 {
+  font-family: "Ubuntu Mono", monospace;
+  text-align: center;
+  color: white;
+}
+
+/* NAVBAR */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+/* NAVBAREND */
